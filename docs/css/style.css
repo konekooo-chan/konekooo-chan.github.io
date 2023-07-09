@@ -177,22 +177,22 @@ section{
         padding: 15%;
         transition: .2s;
     }
-    .koneko-img img{
-        background-color: transparent;
-        width: auto;
-        height: 450px;    
-    }
     .koneko{
         margin-top: 30px;
         height: 100%;
         gap: 1rem;
         grid-template-columns: 1fr;
     }
+    .koneko-img img{
+        background-color: transparent;
+        width: auto;
+        height: 450px;    
+    }
+    
     .koneko-foot{
-        grid-template-columns: 1fr;
-        font-size: 14px;
-        display: inline;
-        position: relative;
+        position: absolute;
+        bottom: 0;
+        display: block;
         text-align: center;
     }
 }
