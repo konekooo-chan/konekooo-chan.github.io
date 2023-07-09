@@ -18,7 +18,7 @@ header{
     justify-content: space-between;
     padding: 33px 10%;
 }
-footer{
+.koneko-foot{
     font-size: 14px;
     padding: 0 10% 0 23%;
     margin-top: -60px;
@@ -190,9 +190,8 @@ section{
         gap: 1rem;
         grid-template-columns: 1fr;
     }
-    footer{
+    .koneko-foot{
         font-size: 14px;
-        margin-top: -1000px;
         width: 100%;
         background: transparent;
         position: relative;
