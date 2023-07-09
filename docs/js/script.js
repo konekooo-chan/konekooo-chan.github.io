@@ -9,7 +9,7 @@ sr.reveal('.koneko-text',{delay:200, origin:'top'})
 sr.reveal('.koneko-img',{delay:450, origin:'top'})
 sr.reveal('.icons',{delay:550, origin:'left'})
 sr.reveal('.scroll-down',{delay:550, origin:'right'})
-sr.reveal('.koneko-foot',{delay:550, origin:'top'})
+sr.reveal('.koneko-foot',{delay:550, origin:'bottom'})
 
 let mybutton = document.getElementById("scroll");
 // // When the user scrolls down 20px from the top of the document, show the button
