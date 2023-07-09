@@ -178,8 +178,6 @@ section{
         transition: .2s;
     }
     .koneko-img img{
-        margin-top: 0px;
-        margin-bottom: -95px;
         background-color: transparent;
         width: auto;
         height: 450px;    
@@ -191,9 +189,8 @@ section{
         grid-template-columns: 1fr;
     }
     .koneko-foot{
+        grid-template-columns: 1fr;
         font-size: 14px;
-        height: 50px;
-        bottom: 0;
         display: inline;
         position: relative;
         text-align: center;
