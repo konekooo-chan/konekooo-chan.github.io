@@ -192,10 +192,10 @@ section{
     }
     .koneko-foot{
         font-size: 14px;
-        width: 100%;
-        background: transparent;
-        position: relative;
+        height: 50px;
+        bottom: 0;
         display: inline;
-        text-align: center;    
+        position: relative;
+        text-align: center;
     }
 }
